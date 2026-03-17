@@ -258,17 +258,6 @@ Every Friday for all 8 months:
 
 ---
 
-## Income Roadmap
-
-| Timeline | Path | Income |
-|----------|------|--------|
-| Month 3–4 | Upwork projects | ₹5,000–₹40,000/project |
-| Month 8 | Junior AI Engineer India | ₹6L–₹12L/year |
-| Month 8–14 | Mid-level + Freelance | ₹12L–₹20L/year |
-| Month 14–24 | Remote International | $2,000–$5,000/month |
-| Month 24+ | Senior Remote / Entrepreneur | $5,000–$10,000+/month |
-
----
 
 *The roadmap is not the destination. It is the spine that makes every destination reachable.*
 

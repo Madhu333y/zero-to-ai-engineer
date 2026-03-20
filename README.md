@@ -3,7 +3,7 @@
 > **8 months. Production AI systems. Built in public. Nothing hidden.**
 
 ![Status](https://img.shields.io/badge/status-in%20progress-1D9E75?style=flat-square)
-![Month](https://img.shields.io/badge/current-month%201-185FA5?style=flat-square)
+![Month](https://img.shields.io/badge/current-month%202-185FA5?style=flat-square)
 ![Journey](https://img.shields.io/badge/journey-India%20→%20World-EF9F27?style=flat-square)
 
 ---
@@ -12,7 +12,7 @@
 
 This is not a course. Not a tutorial. Not a collection of demo projects.
 
-This is a real engineer being built — one month at a time, completely in public.
+I am building myself into an engineer — one month at a time, completely in public.
 
 Every mistake. Every fix. Every cost number. Every week of progress. Nothing polished. Nothing hidden.
 
@@ -59,7 +59,7 @@ Month 04 — Async + Concurrency        ░░░░░░░░░░  not star
 Month 05 — LLM APIs                   ░░░░░░░░░░  not started
 Month 06 — Docker + Cloud             ░░░░░░░░░░  not started
 Month 07 — RAG + Vector DB            ░░░░░░░░░░  not started
-Month 08 — Agents + Tools             ░░░░░░░░░░  not started
+Month 08 — Agents + Tools             ░░░░░░░░░░  not started 
 ```
 
 *This bar updates every Friday.*
@@ -207,8 +207,8 @@ Docker + GitHub Actions CI/CD + Cloud Deploy
 | Metric | Value |
 |--------|-------|
 | Total API spend so far | ₹0 |
-| Total GitHub commits | 0 |
-| LinkedIn followers gained | 0 |
+| Total GitHub commits | 20 |
+| LinkedIn followers gained | 2 |
 | First Upwork client | not yet |
 | Projects shipped | 0 of 8 |
 
@@ -233,7 +233,7 @@ This one shows you:
 
 ## Follow the Journey
 
-**LinkedIn:** [(https://www.linkedin.com/in/madhusudan-yammewar-31b907190/)]
+**LinkedIn:** [(www.linkedin.com/in/madhusudan-builds)]
 *Every Friday — what I built, what broke, what I learned.*
 
 **The rule I follow:**

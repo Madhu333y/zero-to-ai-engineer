@@ -16,7 +16,7 @@ Added a warning system — when the user is one request away from the limit, the
 **Endpoint 4 — `/violation`**
 Most complex endpoint. Tracks violations — if a user exceeds the limit more than once they get a warning, exceed it again they get suspended permanently. Four pieces of state per user: `uses`, `violation`, `suspended`, `warning`.
 
-Full code: [`month-02-fastapi-http-auth/`](../month-02-fastapi-http-auth/)
+
 
 ---
 

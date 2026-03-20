@@ -53,7 +53,7 @@ The goal: complete an 8-month production AI engineering roadmap and document eve
 
 ```
 Month 01 — Python Foundation          ██████████  complete ✓
-Month 02 — FastAPI + Security         ██░░░░░░░░ started
+Month 02 — FastAPI + Security         ██░░░░░░░░ In progress
 Month 03 — Model Inference            ░░░░░░░░░░  not started
 Month 04 — Async + Concurrency        ░░░░░░░░░░  not started
 Month 05 — LLM APIs                   ░░░░░░░░░░  not started
@@ -233,7 +233,7 @@ This one shows you:
 
 ## Follow the Journey
 
-**LinkedIn:** [your LinkedIn URL here]
+**LinkedIn:** [(https://www.linkedin.com/in/madhusudan-yammewar-31b907190/)]
 *Every Friday — what I built, what broke, what I learned.*
 
 **The rule I follow:**

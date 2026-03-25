@@ -85,11 +85,13 @@ Month 08 — Agents + Tools             ░░░░░░░░░░  not star
 - Tier-based access (basic vs premium)
 - Warning + violation tracking
 - Correct HTTP 429 handling
+- Built 4 endpoints with increasing complexity
 
 📂 Code:
 practice/fastapi-basics/rate-limiting-basic.py
 
 📄 Journey:
+journey/month-02/week-01.md
 journey/month-02/week-01.md
 
 ---
@@ -331,9 +333,7 @@ The more engineers who take this path seriously, the stronger the community beco
 > The roadmap is not the destination.
 > It is the spine that makes every destination reachable.
 
-**Month 1. Terminal. Python. Tomorrow morning.**
-
-*Build things. Ship things. Show everything.*
+*Build. Break. Fix. Repeat.*
 
 ---
 

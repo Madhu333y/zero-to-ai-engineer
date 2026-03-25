@@ -88,10 +88,6 @@ journey/month-02/week-01.md
 ```
 zero-to-ai-engineer/
 │
-├── README.md                          ← you are here
-├── ROADMAP.md                         ← the complete 8-month plan
-├── CONTRIBUTING.md                    ← how to follow along or contribute
-│
 ├── journey/                            ← weekly build logs (updated every Friday)
 │   ├── month-01/
 │   │   ├── README.md                   ← month summary + project link
@@ -103,7 +99,7 @@ zero-to-ai-engineer/
 │   ├── month-02/
 │   │   ├── README.md
 │   │   ├── week-01.md
-│   │   ├── week-02.md
+│   │   └── week-02.md
 │   │
 │   ├── month-03/
 │   ├── month-04/
@@ -112,23 +108,27 @@ zero-to-ai-engineer/
 │   ├── month-07/
 │   └── month-08/
 │
-├── practice/
-│   ├── fastapi-basics/                # raw learning code (experiments)
-│   │   ├── rate-limiting-basic.py
-│ 
 ├── lessons/                           ← hard lessons, saved for everyone
 │   ├── production-mistakes.md         ← every mistake + exact fix
 │   ├── cost-management-reality.md     ← real API cost numbers
 │   ├── debugging-guide.md             ← how to debug AI systems
 │   └── what-youtube-never-tells-you.md
 │
+├── practice/
+│   └── fastapi-basics/                # raw learning code (experiments)
+│       └── rate-limiting-basic.py
+│
+├── projects/                          ← links to all 8 monthly builds
+│   └── README.md
+│
 ├── resources/                         ← curated tools and data
 │   ├── real-cost-data.md              ← actual token costs from real projects
 │   ├── job-market-analysis.md         ← real job postings analyzed
 │   └── tools-i-actually-use.md        ← not generic lists
 │
-└── projects/                          ← links to all 8 monthly builds
-    └── README.md
+├── CONTRIBUTING.md                    ← how to follow along or contribute
+├── ROADMAP.md                         ← the complete 8-month plan
+└── README.md                          ← you are here
 ```
 
 ---

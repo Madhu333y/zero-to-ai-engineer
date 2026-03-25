@@ -8,11 +8,22 @@
 
 ---
 
+## ⚡ Quick Overview
+
+- 📅 Month: 02 (FastAPI + Backend Systems)
+- 🚀 Current build: Rate limiting system
+- 🎯 Goal: AI Backend Engineer 
+- 🔁 Weekly system: Build → Break → Fix → Document
+
+---
+
 ## What this is
 
 This repository documents my journey of becoming an AI backend engineer by building real systems in public.
 
-I am building myself into an engineer — one month at a time, completely in public.
+I am building myself into an engineer — one month at a time.
+
+Completely in public.
 
 Every mistake. Every fix. Every cost number. Every week of progress. Nothing polished. Nothing hidden.
 
@@ -83,7 +94,7 @@ journey/month-02/week-01.md
 
 ---
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```
 zero-to-ai-engineer/

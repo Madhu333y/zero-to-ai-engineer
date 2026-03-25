@@ -1,6 +1,6 @@
 # ⚡ Zero to AI Engineer
 
-> **8 months. Production AI systems. Built in public. Nothing hidden.**
+> 8 months journey to building production-ready AI systems — built in public.
 
 ![Status](https://img.shields.io/badge/status-in%20progress-1D9E75?style=flat-square)
 ![Month](https://img.shields.io/badge/current-month%202-185FA5?style=flat-square)
@@ -10,7 +10,7 @@
 
 ## What this is
 
-This is not a course. Not a tutorial. Not a collection of demo projects.
+This repository documents my journey of becoming an AI backend engineer by building real systems in public.
 
 I am building myself into an engineer — one month at a time, completely in public.
 
@@ -66,6 +66,23 @@ Month 08 — Agents + Tools             ░░░░░░░░░░  not star
 
 ---
 
+## 🚀 Current Build
+
+**FastAPI Rate Limiting System**
+
+- Per-user request limiting
+- Tier-based access (basic vs premium)
+- Warning + violation tracking
+- Correct HTTP 429 handling
+
+📂 Code:
+practice/fastapi-basics/rate-limiting-basic.py
+
+📄 Journey:
+journey/month-02/week-01.md
+
+---
+
 ## Repository Structure
 
 ```
@@ -75,21 +92,30 @@ zero-to-ai-engineer/
 ├── ROADMAP.md                         ← the complete 8-month plan
 ├── CONTRIBUTING.md                    ← how to follow along or contribute
 │
-├── journey/                           ← weekly build logs (updated every Friday)
-│   ├── month-01-python-foundation/
-│   │   ├── README.md                  ← month summary + project link
-│   │   ├── week-01.md                 ← what I built, what broke, what I learned
+├── journey/                            ← weekly build logs (updated every Friday)
+│   ├── month-01/
+│   │   ├── README.md                   ← month summary + project link
+│   │   ├── week-01.md
 │   │   ├── week-02.md
 │   │   ├── week-03.md
 │   │   └── week-04.md
-│   ├── month-02-fastapi-security/
-│   ├── month-03-model-inference/
-│   ├── month-04-async-concurrency/
-│   ├── month-05-llm-apis/
-│   ├── month-06-docker-cloud/
-│   ├── month-07-rag-vector-db/
-│   └── month-08-agents-tools/
+│   │
+│   ├── month-02/
+│   │   ├── README.md
+│   │   ├── week-01.md
+│   │   ├── week-02.md
+│   │
+│   ├── month-03/
+│   ├── month-04/
+│   ├── month-05/
+│   ├── month-06/
+│   ├── month-07/
+│   └── month-08/
 │
+├── practice/
+│   ├── fastapi-basics/                # raw learning code (experiments)
+│   │   ├── rate-limiting-basic.py
+│ 
 ├── lessons/                           ← hard lessons, saved for everyone
 │   ├── production-mistakes.md         ← every mistake + exact fix
 │   ├── cost-management-reality.md     ← real API cost numbers
@@ -233,7 +259,7 @@ This one shows you:
 
 ## Follow the Journey
 
-**LinkedIn:** [(www.linkedin.com/in/madhusudan-builds)]
+**LinkedIn:** https://www.linkedin.com/in/madhusudan-builds
 *Every Friday — what I built, what broke, what I learned.*
 
 **The rule I follow:**

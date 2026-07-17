@@ -1,16 +1,20 @@
 from fastapi import FastAPI , HTTPException
 from pydantic import BaseModel, Field ,ConfigDict, EmailStr
+import bcrypt 
+
 
 app =  FastAPI()
+
+
 
 
 users = {}
 
 
-def register_user(user):
-        users[user.username] = {
-        "password": user.password,
-        "email": user.mail,
+def register_user(register,hashed_password):
+        users[register.username] = {
+        "password": hashed_password,
+        "email": register.mail,
         "logged_in": False
     }
 
@@ -28,7 +32,12 @@ def register_(register : Register):
     if register.username in users:
         raise HTTPException(status_code=400, detail="user already exists")
     
-    register_user(register)
+    hashed_password = bcrypt.hashpw(
+    register.password.encode(),
+    bcrypt.gensalt()
+)
+    
+    register_user(register,hashed_password)
     
     
     return{
@@ -48,11 +57,14 @@ def login_user(login : Login):
         
         raise HTTPException(status_code=404 , detail="User does not exist")
     
-    
-        
-    if login.password != users[login.username]["password"]:
-        
-        raise HTTPException(status_code=401, detail="Password doesn't match")
+    if not bcrypt.checkpw(
+        login.password.encode(),
+        users[login.username]["password"]
+    ):
+        raise HTTPException(
+        status_code=401,
+        detail="Password doesn't match"
+    )
         
     users[login.username]["logged_in"] = True
         
@@ -86,18 +98,25 @@ def change_pass(password_change : PasswordChange):
         
         raise HTTPException(status_code=404, detail="User does not exist")
     
-    
-    
-    if password_change.Old != users[password_change.username]["password"]:
-        
+    if not bcrypt.checkpw(
+        password_change.old_password.encode(),
+        users[password_change.username]["password"]
+    ):
         raise HTTPException(status_code=401, detail="Password doesn't match")
+
     
     
-        
-    if password_change.New == password_change.Old :
-        raise HTTPException(status_code=400 ,detail= "Password should not match")
+    if password_change.new_password == password_change.old_password :
+        raise HTTPException(
+            status_code=400 ,
+            detail= "Password should not match")
+
+    new_hashed_password = bcrypt.hashpw(
+        password_change.new_password.encode(),
+        bcrypt.gensalt()
+    )
     
-    users[password_change.username]["password"] = password_change.New
+    users[password_change.username]["password"] = new_hashed_password
         
         
     return {
